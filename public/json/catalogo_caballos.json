@@ -1,0 +1,402 @@
+[
+    {
+        "nombre": "Caballo 1",
+        "raza": "Cuarto de Milla",
+        "edad": 5,
+        "color": "Alazán",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Doma clásica"
+    },
+    {
+        "nombre": "Caballo 2",
+        "raza": "Frisón",
+        "edad": 14,
+        "color": "Palomino",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Doma clásica"
+    },
+    {
+        "nombre": "Caballo 3",
+        "raza": "Appaloosa",
+        "edad": 8,
+        "color": "Bayo",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Enduro"
+    },
+    {
+        "nombre": "Caballo 4",
+        "raza": "Árabe",
+        "edad": 14,
+        "color": "Alazán",
+        "pais_origen": "Estados Unidos",
+        "disciplina_ecuestre": "Trabajo de campo"
+    },
+    {
+        "nombre": "Caballo 5",
+        "raza": "Frisón",
+        "edad": 14,
+        "color": "Alazán",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 6",
+        "raza": "Árabe",
+        "edad": 7,
+        "color": "Negro",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Enduro"
+    },
+    {
+        "nombre": "Caballo 7",
+        "raza": "Árabe",
+        "edad": 10,
+        "color": "Tordo",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Trabajo de campo"
+    },
+    {
+        "nombre": "Caballo 8",
+        "raza": "Appaloosa",
+        "edad": 5,
+        "color": "Negro",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Doma clásica"
+    },
+    {
+        "nombre": "Caballo 9",
+        "raza": "Frisón",
+        "edad": 5,
+        "color": "Negro",
+        "pais_origen": "México",
+        "disciplina_ecuestre": "Enduro"
+    },
+    {
+        "nombre": "Caballo 10",
+        "raza": "Cuarto de Milla",
+        "edad": 12,
+        "color": "Negro",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 11",
+        "raza": "Appaloosa",
+        "edad": 5,
+        "color": "Negro",
+        "pais_origen": "México",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 12",
+        "raza": "Árabe",
+        "edad": 19,
+        "color": "Alazán",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Trabajo de campo"
+    },
+    {
+        "nombre": "Caballo 13",
+        "raza": "Appaloosa",
+        "edad": 3,
+        "color": "Negro",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Doma clásica"
+    },
+    {
+        "nombre": "Caballo 14",
+        "raza": "Pura Sangre",
+        "edad": 19,
+        "color": "Palomino",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 15",
+        "raza": "Cuarto de Milla",
+        "edad": 5,
+        "color": "Bayo",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 16",
+        "raza": "Frisón",
+        "edad": 12,
+        "color": "Alazán",
+        "pais_origen": "México",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 17",
+        "raza": "Frisón",
+        "edad": 7,
+        "color": "Bayo",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 18",
+        "raza": "Cuarto de Milla",
+        "edad": 19,
+        "color": "Bayo",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 19",
+        "raza": "Cuarto de Milla",
+        "edad": 17,
+        "color": "Tordo",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Doma clásica"
+    },
+    {
+        "nombre": "Caballo 20",
+        "raza": "Pura Sangre",
+        "edad": 14,
+        "color": "Alazán",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Enduro"
+    },
+    {
+        "nombre": "Caballo 21",
+        "raza": "Árabe",
+        "edad": 17,
+        "color": "Palomino",
+        "pais_origen": "Estados Unidos",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 22",
+        "raza": "Frisón",
+        "edad": 14,
+        "color": "Bayo",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 23",
+        "raza": "Pura Sangre",
+        "edad": 18,
+        "color": "Tordo",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 24",
+        "raza": "Appaloosa",
+        "edad": 15,
+        "color": "Bayo",
+        "pais_origen": "México",
+        "disciplina_ecuestre": "Trabajo de campo"
+    },
+    {
+        "nombre": "Caballo 25",
+        "raza": "Árabe",
+        "edad": 19,
+        "color": "Negro",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 26",
+        "raza": "Appaloosa",
+        "edad": 16,
+        "color": "Negro",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 27",
+        "raza": "Árabe",
+        "edad": 12,
+        "color": "Tordo",
+        "pais_origen": "México",
+        "disciplina_ecuestre": "Doma clásica"
+    },
+    {
+        "nombre": "Caballo 28",
+        "raza": "Appaloosa",
+        "edad": 3,
+        "color": "Negro",
+        "pais_origen": "México",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 29",
+        "raza": "Cuarto de Milla",
+        "edad": 4,
+        "color": "Negro",
+        "pais_origen": "Estados Unidos",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 30",
+        "raza": "Pura Sangre",
+        "edad": 16,
+        "color": "Tordo",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Enduro"
+    },
+    {
+        "nombre": "Caballo 31",
+        "raza": "Pura Sangre",
+        "edad": 10,
+        "color": "Palomino",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 32",
+        "raza": "Frisón",
+        "edad": 19,
+        "color": "Bayo",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 33",
+        "raza": "Frisón",
+        "edad": 10,
+        "color": "Tordo",
+        "pais_origen": "Estados Unidos",
+        "disciplina_ecuestre": "Trabajo de campo"
+    },
+    {
+        "nombre": "Caballo 34",
+        "raza": "Árabe",
+        "edad": 19,
+        "color": "Tordo",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 35",
+        "raza": "Frisón",
+        "edad": 9,
+        "color": "Negro",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 36",
+        "raza": "Árabe",
+        "edad": 19,
+        "color": "Bayo",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Trabajo de campo"
+    },
+    {
+        "nombre": "Caballo 37",
+        "raza": "Árabe",
+        "edad": 6,
+        "color": "Bayo",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 38",
+        "raza": "Appaloosa",
+        "edad": 11,
+        "color": "Negro",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 39",
+        "raza": "Frisón",
+        "edad": 3,
+        "color": "Alazán",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 40",
+        "raza": "Cuarto de Milla",
+        "edad": 6,
+        "color": "Palomino",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 41",
+        "raza": "Árabe",
+        "edad": 10,
+        "color": "Palomino",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Doma clásica"
+    },
+    {
+        "nombre": "Caballo 42",
+        "raza": "Frisón",
+        "edad": 4,
+        "color": "Tordo",
+        "pais_origen": "España",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 43",
+        "raza": "Appaloosa",
+        "edad": 10,
+        "color": "Palomino",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Enduro"
+    },
+    {
+        "nombre": "Caballo 44",
+        "raza": "Pura Sangre",
+        "edad": 15,
+        "color": "Bayo",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Salto"
+    },
+    {
+        "nombre": "Caballo 45",
+        "raza": "Pura Sangre",
+        "edad": 15,
+        "color": "Negro",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Trabajo de campo"
+    },
+    {
+        "nombre": "Caballo 46",
+        "raza": "Cuarto de Milla",
+        "edad": 8,
+        "color": "Tordo",
+        "pais_origen": "Estados Unidos",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 47",
+        "raza": "Pura Sangre",
+        "edad": 12,
+        "color": "Bayo",
+        "pais_origen": "Francia",
+        "disciplina_ecuestre": "Carreras"
+    },
+    {
+        "nombre": "Caballo 48",
+        "raza": "Árabe",
+        "edad": 19,
+        "color": "Negro",
+        "pais_origen": "México",
+        "disciplina_ecuestre": "Doma clásica"
+    },
+    {
+        "nombre": "Caballo 49",
+        "raza": "Árabe",
+        "edad": 9,
+        "color": "Palomino",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Enduro"
+    },
+    {
+        "nombre": "Caballo 50",
+        "raza": "Appaloosa",
+        "edad": 12,
+        "color": "Negro",
+        "pais_origen": "Argentina",
+        "disciplina_ecuestre": "Trabajo de campo"
+    }
+]

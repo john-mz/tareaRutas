@@ -1,5 +1,10 @@
 .container{
     display: flex;
+    justify-content: space-evenly; 
+    /* space-around melo tmb y space-evenly */
+    font-size: 2em;
+    background-color: blue;
+    padding: 10px 20px;
 }
 
 .item{
