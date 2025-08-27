@@ -1,5 +1,5 @@
 .parent-container{
-    background-color: brown;
+    background-color: #372b1d;
 }
 
 .container{
@@ -18,4 +18,32 @@
 
 .item:first-child{
     width: 9000px;
+}
+
+.title{
+    color: #ffddb0;
+}
+
+.titleParagraph{
+    color: #a6998b;
+}
+
+.welcomeButton{
+    /* background-color: #52402e; */
+    background-color: #372b1d;
+    color: #ffddb0;
+    border: none;
+    padding: 10px 32px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #a6998b;
+    /* border: #52402e; */
+
+}
+
+.welcomeButton:hover{
+    background-color: #ffddb0;
+    color: #372b1d;
+
 }
