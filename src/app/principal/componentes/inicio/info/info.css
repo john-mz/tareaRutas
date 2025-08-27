@@ -1,0 +1,21 @@
+.parent-container{
+    background-color: brown;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.item{
+    border-style: solid;
+    /* margin: 3rem; */
+}
+
+.item:first-child{
+    width: 9000px;
+}
