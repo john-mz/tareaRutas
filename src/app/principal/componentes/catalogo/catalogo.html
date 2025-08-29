@@ -1,1 +1,36 @@
-<p>catalogo works!</p>
+<h2>Catálogo de Caballos</h2>
+<button (click)="onStartAdding()">AGREGAR</button>
+
+<table border="1" style="width:100%; text-align:left;">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Raza</th>
+      <th>Color</th>
+      <th>Edad</th>
+      <th>País Origen</th>
+      <th>Disciplina</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (item of consultar; track $index) {
+      <tr>
+        <td>{{item.nombre}}</td>
+        <td>{{item.raza}}</td>
+        <td>{{item.color}}</td>
+        <td>{{item.edad}}</td>
+        <td>{{item.pais_origen}}</td>
+        <td>{{item.disciplina_ecuestre}}</td>
+        <td>
+          <button (click)="editar()">Editar</button>
+          <button (click)="eliminar(item.nombre)">Eliminar</button>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+@if (IsAgregar) {
+  <app-agregar (close)="onCloseAdding()"></app-agregar>
+}
