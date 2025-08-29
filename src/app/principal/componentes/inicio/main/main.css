@@ -1,11 +1,32 @@
 .container{
     display: flex;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 6rem;
+    margin-right: 6rem;
     gap: 7rem;
+    justify-content: center;
+}
+
+.parent-container{
+    background-color: #f1efe3;
 }
 
 .item{
     border-style: solid;
+}
+
+.welcomeButton{
+    background-color: #372b1d;
+    color: white;
+    padding: 10px 32px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #372b1d;
+
+}
+
+.welcomeButton:hover{
+    background-color: white;
+    color: #372b1d;
 }

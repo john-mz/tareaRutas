@@ -6,8 +6,8 @@
     display: flex;
     justify-content: center;
     /* width: 90%; */
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     /* padding: 30px; */
 }
 
@@ -15,9 +15,9 @@
     border-style: solid;
 }
 
-.item:first-child{
+/* .item:first-child{
     width: 9000px;
-}
+} */
 
 .title{
     color: #ffddb0;
