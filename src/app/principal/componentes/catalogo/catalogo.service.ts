@@ -21,7 +21,17 @@ export class CatalogoService {
   }
 
 
-  editar(){}
+  editar(nombre: string, raza: string, edad: number, color: string, pais_origen: string, disciplina_ecuestre: string){
+    for(let i = 0; i < this.catalogo.length; i++){
+      if (this.catalogo[i].nombre == nombre){
+        this.catalogo[i].raza = raza;
+        this.catalogo[i].edad = edad;
+        this.catalogo[i].color = color;
+        this.catalogo[i].pais_origen = pais_origen;
+        this.catalogo[i].disciplina_ecuestre = disciplina_ecuestre;
+      }
+    }
+  }
 
   eliminar(nombre: string){
     this.catalogo = this.catalogo.filter(item => item.nombre != nombre)

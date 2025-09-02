@@ -5,19 +5,9 @@
 .container{
     display: flex;
     justify-content: center;
-    /* width: 90%; */
     margin-left: 2rem;
     margin-right: 2rem;
-    /* padding: 30px; */
 }
-
-.item{
-    border-style: solid;
-}
-
-/* .item:first-child{
-    width: 9000px;
-} */
 
 .title{
     color: #ffddb0;
@@ -46,6 +36,8 @@
 
 .item-2, .item-3{
     text-align: center;
+    border-style: solid;
+
 }
 
 .goldenButton{

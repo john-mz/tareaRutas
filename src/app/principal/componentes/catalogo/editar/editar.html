@@ -1,1 +1,33 @@
-<p>editar works!</p>
+<div class="backdrop" (click)="onClose()"></div>
+<dialog open>
+  <h2>Editar Caballo</h2>
+  <form (ngSubmit)="onSubmit()">
+    <p>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" [(ngModel)]="nombre" required disabled/>
+    </p>
+    <p>
+      <label for="raza">Raza</label>
+      <input type="text" id="raza" name="raza" [(ngModel)]="raza" required />
+    </p>
+    <p>
+      <label for="edad">Edad</label>
+      <input type="number" id="edad" name="edad" [(ngModel)]="edad" required />
+    </p>
+    <p>
+      <label for="color">color</label>
+      <input type="text" id="color" name="color" [(ngModel)]="color" required />
+    </p>
+    <p>
+      <label for="pais_origen">País de Origen</label>
+      <input type="text" id="pais_origen" name="pais_origen" [(ngModel)]="pais_origen" required />
+    </p>
+    <p>
+      <label for="disciplina_ecuestre">Disciplina Ecuestre</label>
+      <input type="text" id="disciplina_ecuestre" name="disciplina_ecuestre" [(ngModel)]="disciplina_ecuestre" required />
+    </p>
+    <p class="actions">
+      <button type="button" (click)="onClose()">Cancelar</button>
+      <button type="submit">Editar</button>
+    </p>
+  </form>

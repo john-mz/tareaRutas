@@ -1,13 +1,13 @@
 <h2>Catálogo de Caballos</h2>
-<button (click)="onStartAdding()">AGREGAR</button>
+<button class="agregar" (click)="onStartAdding()">AGREGAR</button>
 
-<table border="1" style="width:100%; text-align:left;">
+<table>
   <thead>
     <tr>
       <th>Nombre</th>
       <th>Raza</th>
-      <th>Color</th>
       <th>Edad</th>
+      <th>Color</th>
       <th>País Origen</th>
       <th>Disciplina</th>
       <th>Acciones</th>
@@ -18,12 +18,12 @@
       <tr>
         <td>{{item.nombre}}</td>
         <td>{{item.raza}}</td>
-        <td>{{item.color}}</td>
         <td>{{item.edad}}</td>
+        <td>{{item.color}}</td>
         <td>{{item.pais_origen}}</td>
         <td>{{item.disciplina_ecuestre}}</td>
         <td>
-          <button (click)="editar()">Editar</button>
+          <button (click)="editar(item.nombre, item.raza, item.edad, item.color, item.pais_origen, item.disciplina_ecuestre)">Editar</button>
           <button (click)="eliminar(item.nombre)">Eliminar</button>
         </td>
       </tr>
@@ -34,3 +34,9 @@
 @if (IsAgregar) {
   <app-agregar (close)="onCloseAdding()"></app-agregar>
 }
+
+@if (IsEditar) {
+  <app-editar (close)="onCloseEditing()" [nombre]="nombreEditar" [edad]="edadEditar" [raza]="razaEditar" [color]="colorEditar" [pais_origen]="pais_origenEditar" [disciplina_ecuestre]="disciplina_ecuestreEditar"></app-editar>
+}
+
+<!-- buscar elemento, mandarle el objeto al componente y q lo pida como input -->
